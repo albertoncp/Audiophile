@@ -1,0 +1,24 @@
+.cardsDiv{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 50px;
+    width: 100%;
+    
+    
+    
+}
+
+@media (min-width: 768px) { 
+    .cardsDiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        
+        
+        
+        padding-top: 40px;
+        
+        
+    }
+}

@@ -1,0 +1,176 @@
+.BannerContainer {
+  position: relative;
+  background-color: #0e0e0e;
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-column:1;
+  img {
+    
+    margin: 0 auto;
+    height: 20rem;
+    
+    
+  }
+}
+
+
+  .infoContainer {
+   padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    left: 0;
+  right: 0;
+    margin: 0 auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 80%;
+    height: 80%;
+    z-index: 1;
+    .title {
+      letter-spacing: 0.6rem;
+      font-size:0.8rem;
+      
+      
+      padding-bottom: 1rem;
+      color: #fff;
+      opacity: 0.5;
+
+      text-transform: uppercase;
+    }
+  
+
+  
+  h1 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    width: 15rem;
+  }
+  .description {
+    
+    margin: 0 auto;
+    color: rgb(254, 250, 250);
+    opacity: 0.7;
+ text-align: center;
+    margin: 0 auto;
+    width: 15rem;
+  }
+
+  button {
+    color: rgb(254, 250, 250);
+    width: 10rem;
+    padding: 1rem 0rem;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    align-items: center;
+    background-color: #d87d4a;
+    margin-top: 2rem;
+  }
+ 
+}
+
+//FOR TABLET
+@media (min-width: 768px) {
+
+  .BannerContainer {
+    position: relative;
+    background-color: #0e0e0e;
+    width: 100%;
+    height: 650px;
+    display: grid;
+    grid-column:1;
+    img {
+      
+      margin: 0 auto;
+      height: 40rem;
+      
+      
+    }
+  }
+  
+  
+    .infoContainer {
+     padding-top: 6rem;
+      display: flex;
+      justify-content: center;
+      left: 0;
+    right: 0;
+      margin: 0 auto;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      width: 80%;
+      height: 80%;
+      z-index: 1;
+      .title {
+        letter-spacing: 0.6rem;
+        font-size: 1rem;
+        
+        
+        
+        color: #fff;
+        opacity: 0.5;
+  
+        text-transform: uppercase;
+      }
+    
+  
+    
+    h1 {
+      font-size: 3.5rem;
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff;
+      margin: 0;
+      width: 28rem;
+    }
+    .description {
+      
+      
+      color: rgb(254, 250, 250);
+      opacity: 0.7;
+   text-align: center;
+      
+      width: 15rem;
+    }
+  
+    button {
+      color: rgb(254, 250, 250);
+      width: 10rem;
+      padding: 1rem 0rem;
+      font-size: 13px;
+      font-weight: 700;
+      font-style: normal;
+      
+      letter-spacing: 1px;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      text-decoration: none;
+  
+      align-items: center;
+      background-color: #d87d4a;
+      margin-top: 2rem;
+    }
+   
+  }
+
+ }
