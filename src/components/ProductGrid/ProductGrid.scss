@@ -1,0 +1,546 @@
+.product-grid {
+    display: grid;
+    gap: 20px;
+
+    .product-ZX9 {
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        height: 700px;
+        background-color: #d87d4a;
+        border-radius: 8px;
+
+        .product-ZX9__container {
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+
+            .desktop-image{
+                display: none;
+            }
+        }
+
+        .product-ZX9__image {
+            padding-top: 90px;
+            height: 11rem;
+            width: 11rem;
+        }
+
+        .product-ZX9__circles {
+            overflow: hidden;
+            z-index: 5;
+            top: -12%;
+            position: absolute;
+            width: 33rem;
+
+            max-width: 569px;
+        }
+        .product-ZX9__content {
+            top: 48%;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            .product-ZX9__title {
+                font-size: 2.3rem;
+                color: #fff;
+                max-width: 261px;
+                font-weight: 700;
+                line-height: 58px;
+                letter-spacing: 2px;
+                margin-bottom: 6px;
+            }
+            .product-ZX9__paragraph {
+                width: 80%;
+                text-align: center;
+                color: #f1f1f1;
+                opacity: 0.75;
+            }
+        }
+
+        button {
+            color: rgb(254, 250, 250);
+            width: 10rem;
+            padding: 1rem 0rem;
+            font-size: 13px;
+            font-weight: 700;
+            font-style: normal;
+
+            letter-spacing: 1px;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            text-decoration: none;
+
+            align-items: center;
+            background-color: black;
+            margin-top: 2rem;
+        }
+    }
+
+    .product-ZX7 {
+        height: 300px;
+        background-image: url("../../../public/images/product-zx7-speaker/mobile/mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+
+        .product-ZX7__content {
+            padding: 40px 0 131px 50px;
+
+            .product-ZX7__title,
+            .product-YX1__title {
+                font-size: 28px;
+                font-weight: 550;
+                line-height: 38px;
+                letter-spacing: 2px;
+                margin-bottom: 25px;
+            }
+
+            button {
+                color: black;
+                width: 10rem;
+                padding: 1rem 0rem;
+                font-size: 13px;
+                font-weight: 700;
+                font-style: normal;
+
+                letter-spacing: 1px;
+                border: none;
+                cursor: pointer;
+                text-transform: uppercase;
+                text-decoration: none;
+                background-color: transparent;
+                align-items: center;
+                border: solid 1px black;
+                margin-top: 2rem;
+            }
+        }
+    }
+}
+
+.product-YX1 {
+    display: grid;
+    gap: 20px;
+    .product-YX1__image {
+        background-image: url(../../../public/images/product-yx1-earphones/image-earphones-yx1-mobile.48e16a44.jpg);
+        height: 200px;
+        background-size: cover;
+    }
+
+    .product-YX1__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f1f1f1;
+        height: 200px;
+        button {
+            color: black;
+            width: 10rem;
+            padding: 1rem 0rem;
+            font-size: 13px;
+            font-weight: 700;
+            font-style: normal;
+
+            letter-spacing: 1px;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            text-decoration: none;
+            background-color: transparent;
+            align-items: center;
+            border: solid 1px black;
+            margin-top: 2rem;
+        }
+
+        .product-YX1__title {
+            font-size: 28px;
+            font-weight: 550;
+            line-height: 38px;
+            letter-spacing: 2px;
+            margin: 0px;
+        }
+    }
+
+    .product-ZX9,
+    .product-ZX7,
+    .product-YX1__image,
+    .product-YX1__content {
+        border-radius: 8px;
+    }
+}
+@media (min-width: 768px) {
+    .product-grid {
+        .product-ZX9 {
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: 1fr;
+            position: relative;
+            height: 700px;
+            background-color: #d87d4a;
+            border-radius: 8px;
+
+            .product-ZX9__container {
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
+                .desktop-image{
+                    display: none;
+                }
+
+                .product-ZX9__image {
+                    padding-top: 90px;
+                    height: 11rem;
+                    width: 11rem;
+                }
+            }
+
+            
+
+            .product-ZX9__circles {
+                overflow: hidden;
+                z-index: 5;
+                top: -12%;
+                position: absolute;
+                width: 33rem;
+
+                max-width: 569px;
+            }
+            .product-ZX9__content {
+                top: 48%;
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                .product-ZX9__title {
+                    font-size: 2.3rem;
+                    color: #fff;
+                    max-width: 261px;
+                    font-weight: 700;
+                    line-height: 58px;
+                    letter-spacing: 2px;
+                    margin-bottom: 6px;
+                }
+                .product-ZX9__paragraph {
+                    width: 50%;
+                    text-align: center;
+                    color: #f1f1f1;
+                    opacity: 0.75;
+                }
+            }
+
+            button {
+                color: rgb(254, 250, 250);
+                width: 10rem;
+                padding: 1rem 0rem;
+                font-size: 13px;
+                font-weight: 700;
+                font-style: normal;
+
+                letter-spacing: 1px;
+                border: none;
+                cursor: pointer;
+                text-transform: uppercase;
+                text-decoration: none;
+
+                align-items: center;
+                background-color: black;
+                margin-top: 2rem;
+            }
+        }
+
+        
+    .product-ZX7 {
+        height: 300px;
+        background-image: url("../../../public/images/product-zx7-speaker/image-speaker-zx7-tablet.173a4cb5.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position: right;
+
+        .product-ZX7__content {
+            padding: 40px 0 131px 50px;
+
+            .product-ZX7__title,
+            .product-YX1__title {
+                font-size: 28px;
+                font-weight: 550;
+                line-height: 38px;
+                letter-spacing: 2px;
+                margin-bottom: 25px;
+            }
+
+            button {
+                color: black;
+                width: 10rem;
+                padding: 1rem 0rem;
+                font-size: 13px;
+                font-weight: 700;
+                font-style: normal;
+
+                letter-spacing: 1px;
+                border: none;
+                cursor: pointer;
+                text-transform: uppercase;
+                text-decoration: none;
+                background-color: transparent;
+                align-items: center;
+                border: solid 1px black;
+                margin-top: 2rem;
+            }
+        }
+    }
+    }
+
+    .product-YX1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        .product-YX1__image {
+            background-image: url(../../../public/images/product-yx1-earphones/image-earphones-yx1-mobile.48e16a44.jpg);
+            height: 200px;
+            background-size: cover;
+        }
+    
+        .product-YX1__content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f1f1f1;
+            height: 200px;
+            button {
+                color: black;
+                width: 10rem;
+                padding: 1rem 0rem;
+                font-size: 13px;
+                font-weight: 700;
+                font-style: normal;
+    
+                letter-spacing: 1px;
+                border: none;
+                cursor: pointer;
+                text-transform: uppercase;
+                text-decoration: none;
+                background-color: transparent;
+                align-items: center;
+                border: solid 1px black;
+                margin-top: 2rem;
+            }
+    
+            .product-YX1__title {
+                font-size: 28px;
+                font-weight: 550;
+                line-height: 38px;
+                letter-spacing: 2px;
+                margin: 0px;
+            }
+        }
+    
+        .product-ZX9,
+        .product-ZX7,
+        .product-YX1__image,
+        .product-YX1__content {
+            border-radius: 8px;
+        }
+    }
+}
+//desktop
+@media (min-width: 992px){
+    .product-grid {
+        .product-ZX9 {
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            position: relative;
+            height: 700px;
+            background-color: #d87d4a;
+            border-radius: 8px;
+
+            .product-ZX9__container {
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
+                .desktop-image{
+                    padding-top: 60px;
+                    padding-right: 40px;
+                display: block;
+            position: relative;
+            max-width: 410px;
+            max-height: 610px;
+            justify-self: center;
+            z-index: 4;
+
+                }
+                
+            }
+
+            .product-ZX9__image {
+                display: none;
+                position: absolute;
+                padding-top: 90px;
+                height: 11rem;
+                width: 11rem;
+                z-index: 10;
+            }
+
+            .product-ZX9__circles {
+                overflow: hidden;
+                z-index: 0;
+                top: 12%;
+                position: absolute;
+                width: 100%;
+
+                max-width: 569px;
+            }
+            .product-ZX9__content {
+                
+                position: absolute;
+                top: 10%;
+                left: 55%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                
+                width: 60%;
+
+                
+
+                .product-ZX9__title {
+                    font-size: 3.3rem;
+                    color: #fff;
+                    max-width: 261px;
+                    font-weight: 700;
+                    line-height: 58px;
+                    letter-spacing: 2px;
+                    margin-bottom: 6px;
+                }
+                .product-ZX9__paragraph {
+                    width: 50%;
+                    text-align: left;
+                    color: #f1f1f1;
+                    opacity: 0.75;
+                }
+            }
+
+            button {
+                color: rgb(254, 250, 250);
+                width: 10rem;
+                padding: 1rem 0rem;
+                font-size: 13px;
+                font-weight: 700;
+                font-style: normal;
+
+                letter-spacing: 1px;
+                border: none;
+                cursor: pointer;
+                text-transform: uppercase;
+                text-decoration: none;
+
+                align-items: center;
+                background-color: black;
+                margin-top: 2rem;
+            }
+        }
+
+        
+    .product-ZX7 {
+        height: 300px;
+        background-image: url("../../../public/images/product-zx7-speaker/image-speaker-zx7-tablet.173a4cb5.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position: right;
+
+        .product-ZX7__content {
+            padding: 40px 0 131px 50px;
+
+            .product-ZX7__title,
+            .product-YX1__title {
+                font-size: 28px;
+                font-weight: 550;
+                line-height: 38px;
+                letter-spacing: 2px;
+                margin-bottom: 25px;
+            }
+
+            button {
+                color: black;
+                width: 10rem;
+                padding: 1rem 0rem;
+                font-size: 13px;
+                font-weight: 700;
+                font-style: normal;
+
+                letter-spacing: 1px;
+                border: none;
+                cursor: pointer;
+                text-transform: uppercase;
+                text-decoration: none;
+                background-color: transparent;
+                align-items: center;
+                border: solid 1px black;
+                margin-top: 2rem;
+            }
+        }
+    }
+    }
+
+    .product-YX1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        .product-YX1__image {
+            background-image: url(../../../public/images/shared/descarga.jpg);
+            
+            background-size: cover;
+            height: 300px;
+        }
+    
+        .product-YX1__content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f1f1f1;
+            height: 300px;
+            button {
+                color: black;
+                width: 10rem;
+                padding: 1rem 0rem;
+                font-size: 13px;
+                font-weight: 700;
+                font-style: normal;
+    
+                letter-spacing: 1px;
+                border: none;
+                cursor: pointer;
+                text-transform: uppercase;
+                text-decoration: none;
+                background-color: transparent;
+                align-items: center;
+                border: solid 1px black;
+                margin-top: 2rem;
+            }
+    
+            .product-YX1__title {
+                font-size: 28px;
+                font-weight: 550;
+                line-height: 38px;
+                letter-spacing: 2px;
+                margin: 0px;
+            }
+        }
+    
+        .product-ZX9,
+        .product-ZX7,
+        .product-YX1__image,
+        .product-YX1__content {
+            border-radius: 8px;
+        }
+    }
+}

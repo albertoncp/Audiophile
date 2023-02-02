@@ -1,0 +1,55 @@
+.menu{
+    width: 100%;
+    
+    background-color: 
+    #101010;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    .menu__image{
+        margin-top: 40px;
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+     ul{
+        color: white;
+        text-transform: uppercase;
+        list-style-type: none;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction:column;
+        padding: 0px;
+               gap: 20px;
+        li{
+            letter-spacing: 0.1rem;
+            font-size: 0.9rem;
+        }   
+      
+     }
+     .menuParagraph{
+
+        margin: 0 30px;
+
+        p{
+            color: white;
+            text-align: center;
+            opacity: 0.5;
+         }
+
+     }
+     .menu__icons{
+        display: flex;
+        gap: 5px;
+        margin-bottom: 50px
+     }
+
+     
+}

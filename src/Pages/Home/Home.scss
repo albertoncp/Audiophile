@@ -1,3 +1,13 @@
 .divContainer{
     margin: 0 5%;
+
+    
+}
+
+@media (min-width: 992px){
+    .divContainer{
+        margin: 0 10%;
+    
+        
+    }
 }

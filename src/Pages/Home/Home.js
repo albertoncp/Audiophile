@@ -1,7 +1,8 @@
 import React from 'react'
 import CategoryCards from '../../components/CategoryCards/CategoryCards'
 import HomeBanner from '../../components/HomeBanner/HomeBanner'
-import ProductGrid from '../../components/ProductGrip/ProductGrid'
+import ProductGrid from '../../components/ProductGrid/ProductGrid'
+import ShopIntro from '../../components/ShopIntro/ShopIntro'
 
 import "./Home.scss"
 const Home = () => {
@@ -9,8 +10,10 @@ const Home = () => {
     <div>
     <HomeBanner/>
     <div className='divContainer' >
+    
     <CategoryCards  style={{ marginTop: "70px", marginBottom: "70px" }} />
     <ProductGrid/>
+    <ShopIntro/>
     </div>
 
     </div>

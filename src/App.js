@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import {BrowserRouter as Router} from "react-router-dom"
 import ScrollToTop from "react-scroll-to-top"
+import Footer from './components/Footer/Footer';
 
 function App() {
   
@@ -21,6 +22,9 @@ function App() {
           <Route path='' element={<Home/>} />
       </Routes>
     </div>
+    <footer>
+      <Footer/>
+    </footer>
     </Router>
   );
 }
